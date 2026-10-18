@@ -1,0 +1,38 @@
+name: Build and validate Node 24 patch
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  linux-x64:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Build baseline and patched binaries
+        run: bash scripts/build.sh
+      - name: Verify compiled default and explicit overrides
+        run: python3 scripts/verify.py node-source results
+      - name: Run upstream tests
+        working-directory: node-source
+        run: |
+          set -o pipefail
+          python3 tools/test.py --mode=release -j 4 parallel sequential 2>&1 | tee ../results/upstream-tests.log
+      - name: Compare throughput, memory and GC
+        if: ${{ !cancelled() && hashFiles('results/node-patched') != '' }}
+        run: python3 scripts/compare.py node-source results --runs 7
+      - name: Retain build and test evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: linux-x64-validation
+          path: results/
+          retention-days: 14
+          if-no-files-found: error

@@ -1,0 +1,131 @@
+diff --git a/benchmark/streams/readable-push-buffer-burst-minimal.js b/benchmark/streams/readable-push-buffer-burst-minimal.js
+new file mode 100644
+index 00000000..f4884b37
+--- /dev/null
++++ b/benchmark/streams/readable-push-buffer-burst-minimal.js
+@@ -0,0 +1,65 @@
++'use strict';
++
++// Regression reproducer for https://github.com/nodejs/node/issues/63863.
++const common = require('../common.js');
++const assert = require('assert');
++const { Readable } = require('stream');
++
++const bench = common.createBenchmark(main, {
++  n: [2e4],
++  bodySize: [120 * 1024],
++});
++
++function repeat(size, ch) {
++  return ch.repeat(size);
++}
++
++function makeBurstChunks(bodySize) {
++  return [
++    '<!doctype html><html><head><title>burst</title><style>',
++    repeat(1024, 'a'),
++    '</style></head><body><header>',
++    repeat(2048, 'b'),
++    '</header><main>',
++    repeat(bodySize, 'c'),
++    '</main><script>',
++    repeat(2048, 'd'),
++    '</script></body></html>',
++  ];
++}
++
++function toBuffers(chunks) {
++  return chunks.map((chunk) => Buffer.from(chunk, 'utf8'));
++}
++
++function buildAndDrain(buffersIn) {
++  const buffersOut = [];
++  for (let i = 0; i < buffersIn.length; i++) {
++    const readable = new Readable({ read() {} });
++    readable.push(buffersIn[i]);
++    readable.push(null);
++    let chunk;
++    while ((chunk = readable.read()) !== null)
++      buffersOut.push(chunk);
++  }
++  return Buffer.concat(buffersOut);
++}
++
++function main({ n, bodySize }) {
++  const inputBuffers = toBuffers(makeBurstChunks(bodySize));
++  const expectedLength = inputBuffers.reduce(
++    (sum, chunk) => sum + chunk.length,
++    0,
++  );
++
++  const warmup = buildAndDrain(inputBuffers);
++  assert.strictEqual(warmup.length, expectedLength);
++
++  bench.start();
++  for (let i = 0; i < n; ++i) {
++    const buffer = buildAndDrain(inputBuffers);
++    if (buffer.length !== expectedLength)
++      throw new Error(`Unexpected buffer length: ${buffer.length}`);
++  }
++  bench.end(n);
++}
+diff --git a/src/node.cc b/src/node.cc
+index 92c5fd8c..00f5f61f 100644
+--- a/src/node.cc
++++ b/src/node.cc
+@@ -860,6 +860,18 @@ static ExitCode InitializeNodeWithArgsInternal(
+   // is security relevant, for Node it's less important.
+   V8::SetFlagsFromString("--no-freeze-flags-after-init");
+ 
++#if !defined(V8_COMPRESS_POINTERS) && V8_MAJOR_VERSION < 14
++  // Keep short-lived external backing stores below V8's external-memory soft
++  // limit so they can be reclaimed by Scavenger before incremental marking
++  // starts. Without pointer compression, V8's 32 MB default raises the
++  // Scavenge threshold above that limit and can cause frequent Mark-Compacts
++  // for Buffer-heavy workloads. Upstream V8 later changed external-memory
++  // accounting and removed this flag, so keep the workaround scoped to older
++  // V8 versions. Explicit V8 flags parsed below still override this default.
++  // See https://github.com/nodejs/node/issues/63863.
++  V8::SetFlagsFromString("--scavenger-max-new-space-capacity-mb=8");
++#endif
++
+ #if defined(NODE_V8_OPTIONS)
+   // Should come before the call to V8::SetFlagsFromCommandLine()
+   // so the user can disable a flag --foo at run-time by passing
+diff --git a/test/parallel/test-buffer-gc-scavenger-default.js b/test/parallel/test-buffer-gc-scavenger-default.js
+new file mode 100644
+index 00000000..8e8727c1
+--- /dev/null
++++ b/test/parallel/test-buffer-gc-scavenger-default.js
+@@ -0,0 +1,31 @@
++'use strict';
++
++const common = require('../common');
++const assert = require('assert');
++const { spawnSync } = require('child_process');
++
++if (process.config.variables.v8_enable_pointer_compression)
++  common.skip('Node default applies only without pointer compression');
++
++if (Number(process.versions.v8.split('.')[0]) >= 14)
++  common.skip('workaround is scoped to V8 versions before 14');
++
++function capacity(flags) {
++  const result = spawnSync(process.execPath, [...flags, '--v8-options'], {
++    encoding: 'utf8',
++    env: { ...process.env, NODE_OPTIONS: '' },
++  });
++  assert.ifError(result.error);
++  assert.strictEqual(result.status, 0, result.stderr);
++  const match = result.stdout.match(
++    /default: --scavenger-max-new-space-capacity-mb=(\d+)/,
++  );
++  assert(match, 'expected scavenger capacity in V8 options');
++  return Number(match[1]);
++}
++
++// Verify the compiled default, not a command-line workaround.
++assert.strictEqual(capacity([]), 8);
++// Operators must retain control of the V8 setting.
++assert.strictEqual(capacity(['--scavenger-max-new-space-capacity-mb=32']), 32);
++assert.strictEqual(capacity(['--scavenger-max-new-space-capacity-mb=4']), 4);
