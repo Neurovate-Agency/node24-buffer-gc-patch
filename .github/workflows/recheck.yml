@@ -1,0 +1,41 @@
+name: Recheck compiled artifacts
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: Build workflow run containing linux-x64-validation
+        required: true
+        type: string
+permissions:
+  contents: read
+  actions: read
+jobs:
+  stress:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: linux-x64-validation
+          path: results
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+      - name: Check binary integrity and retained-buffer/worker stress
+        run: |
+          set -euo pipefail
+          mkdir node-source
+          cd node-source
+          sha256sum -c ../results/SHA256SUMS
+          cd ..
+          chmod +x results/node-baseline results/node-patched
+          results/node-baseline scripts/stress.cjs | tee results/stress-baseline.log
+          results/node-patched scripts/stress.cjs | tee results/stress-patched.log
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: additional-stress-results
+          path: results/stress-*.log
+          retention-days: 14
