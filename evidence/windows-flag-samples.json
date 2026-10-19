@@ -1,0 +1,1082 @@
+[
+  {
+    "workload": "buffer-churn",
+    "variant": "baseline",
+    "run": 0,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.6277636999999999,
+      "ops": 63718.24302679496,
+      "maxRssKiB": 122340,
+      "memory": {
+        "rss": 87556096,
+        "heapTotal": 7389184,
+        "heapUsed": 3893872,
+        "external": 34777155,
+        "arrayBuffers": 32807183
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "flag8",
+    "run": 0,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5882246,
+      "ops": 68001.23626247526,
+      "maxRssKiB": 75508,
+      "memory": {
+        "rss": 46997504,
+        "heapTotal": 8437760,
+        "heapUsed": 4890856,
+        "external": 5615127,
+        "arrayBuffers": 3643699
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "flag8",
+    "run": 1,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5521169,
+      "ops": 72448.42532441951,
+      "maxRssKiB": 75388,
+      "memory": {
+        "rss": 47091712,
+        "heapTotal": 8437760,
+        "heapUsed": 4890856,
+        "external": 5615127,
+        "arrayBuffers": 3643699
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "baseline",
+    "run": 1,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5681699,
+      "ops": 70401.47674137613,
+      "maxRssKiB": 116092,
+      "memory": {
+        "rss": 54304768,
+        "heapTotal": 7651328,
+        "heapUsed": 3754672,
+        "external": 11970627,
+        "arrayBuffers": 10000655
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "baseline",
+    "run": 2,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5709157,
+      "ops": 70062.88318923442,
+      "maxRssKiB": 114896,
+      "memory": {
+        "rss": 55955456,
+        "heapTotal": 7651328,
+        "heapUsed": 3766272,
+        "external": 13871171,
+        "arrayBuffers": 11901199
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "flag8",
+    "run": 2,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5378536,
+      "ops": 74369.6797790328,
+      "maxRssKiB": 75208,
+      "memory": {
+        "rss": 47046656,
+        "heapTotal": 8437760,
+        "heapUsed": 4890856,
+        "external": 5615127,
+        "arrayBuffers": 3643699
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "flag8",
+    "run": 3,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5566855,
+      "ops": 71853.85644138386,
+      "maxRssKiB": 75292,
+      "memory": {
+        "rss": 47071232,
+        "heapTotal": 8437760,
+        "heapUsed": 4890856,
+        "external": 5615127,
+        "arrayBuffers": 3643699
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "baseline",
+    "run": 3,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5941719000000001,
+      "ops": 67320.58517072246,
+      "maxRssKiB": 114048,
+      "memory": {
+        "rss": 65257472,
+        "heapTotal": 7389184,
+        "heapUsed": 3822672,
+        "external": 23111747,
+        "arrayBuffers": 21141775
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "baseline",
+    "run": 4,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5741137,
+      "ops": 69672.61014673575,
+      "maxRssKiB": 114324,
+      "memory": {
+        "rss": 62935040,
+        "heapTotal": 7389184,
+        "heapUsed": 3809872,
+        "external": 21014595,
+        "arrayBuffers": 19044623
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "flag8",
+    "run": 4,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5326247,
+      "ops": 75099.78414444542,
+      "maxRssKiB": 75552,
+      "memory": {
+        "rss": 47271936,
+        "heapTotal": 8437760,
+        "heapUsed": 4890856,
+        "external": 5615127,
+        "arrayBuffers": 3643699
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "flag8",
+    "run": 5,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5818327000000001,
+      "ops": 68748.28451546293,
+      "maxRssKiB": 75340,
+      "memory": {
+        "rss": 47120384,
+        "heapTotal": 8437760,
+        "heapUsed": 4890856,
+        "external": 5615127,
+        "arrayBuffers": 3643699
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "baseline",
+    "run": 5,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.6127397,
+      "ops": 65280.575095754364,
+      "maxRssKiB": 115172,
+      "memory": {
+        "rss": 59416576,
+        "heapTotal": 7651328,
+        "heapUsed": 3786272,
+        "external": 17147971,
+        "arrayBuffers": 15177999
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "baseline",
+    "run": 6,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.6096994,
+      "ops": 65606.10031763194,
+      "maxRssKiB": 114332,
+      "memory": {
+        "rss": 69038080,
+        "heapTotal": 7651328,
+        "heapUsed": 3845872,
+        "external": 26912835,
+        "arrayBuffers": 24942863
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "flag8",
+    "run": 6,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5443918,
+      "ops": 73476.49248206898,
+      "maxRssKiB": 75584,
+      "memory": {
+        "rss": 47517696,
+        "heapTotal": 8437760,
+        "heapUsed": 4890856,
+        "external": 5615127,
+        "arrayBuffers": 3643699
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "flag8",
+    "run": 7,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5677914000000001,
+      "ops": 70448.40763703008,
+      "maxRssKiB": 75264,
+      "memory": {
+        "rss": 47206400,
+        "heapTotal": 8437760,
+        "heapUsed": 4890856,
+        "external": 5615127,
+        "arrayBuffers": 3643699
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "baseline",
+    "run": 7,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.6096159,
+      "ops": 65615.08648314455,
+      "maxRssKiB": 114332,
+      "memory": {
+        "rss": 68509696,
+        "heapTotal": 7651328,
+        "heapUsed": 3842072,
+        "external": 26290243,
+        "arrayBuffers": 24320271
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "baseline",
+    "run": 8,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5756147,
+      "ops": 69490.92856732116,
+      "maxRssKiB": 114420,
+      "memory": {
+        "rss": 62361600,
+        "heapTotal": 7389184,
+        "heapUsed": 3804472,
+        "external": 20129859,
+        "arrayBuffers": 18159887
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-churn",
+    "variant": "flag8",
+    "run": 8,
+    "data": {
+      "kind": "buffer-churn",
+      "operations": 40000,
+      "seconds": 0.5629308999999999,
+      "ops": 71056.67853727697,
+      "maxRssKiB": 75488,
+      "memory": {
+        "rss": 47128576,
+        "heapTotal": 8437760,
+        "heapUsed": 4890856,
+        "external": 5615127,
+        "arrayBuffers": 3643699
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "baseline",
+    "run": 0,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.6541021,
+      "ops": 61152.53260920581,
+      "maxRssKiB": 122064,
+      "memory": {
+        "rss": 88723456,
+        "heapTotal": 9748480,
+        "heapUsed": 3966712,
+        "external": 46377027,
+        "arrayBuffers": 44407055
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "flag8",
+    "run": 0,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.5506173,
+      "ops": 72645.73779283724,
+      "maxRssKiB": 75332,
+      "memory": {
+        "rss": 70746112,
+        "heapTotal": 10534912,
+        "heapUsed": 5038696,
+        "external": 29502999,
+        "arrayBuffers": 27531571
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "flag8",
+    "run": 1,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.5455793,
+      "ops": 73316.56461306359,
+      "maxRssKiB": 75388,
+      "memory": {
+        "rss": 70791168,
+        "heapTotal": 10534912,
+        "heapUsed": 5038696,
+        "external": 29502999,
+        "arrayBuffers": 27531571
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "baseline",
+    "run": 1,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.6084387,
+      "ops": 65742.03777636103,
+      "maxRssKiB": 122520,
+      "memory": {
+        "rss": 83881984,
+        "heapTotal": 9748480,
+        "heapUsed": 3937712,
+        "external": 41625667,
+        "arrayBuffers": 39655695
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "baseline",
+    "run": 2,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.6005175,
+      "ops": 66609.21621767891,
+      "maxRssKiB": 123232,
+      "memory": {
+        "rss": 84361216,
+        "heapTotal": 9486336,
+        "heapUsed": 3938312,
+        "external": 41723971,
+        "arrayBuffers": 39753999
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "flag8",
+    "run": 2,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.5382909,
+      "ops": 74309.26289112448,
+      "maxRssKiB": 75416,
+      "memory": {
+        "rss": 70815744,
+        "heapTotal": 10534912,
+        "heapUsed": 5038696,
+        "external": 29502999,
+        "arrayBuffers": 27531571
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "flag8",
+    "run": 3,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.5579752000000001,
+      "ops": 71687.77393690615,
+      "maxRssKiB": 75224,
+      "memory": {
+        "rss": 70639616,
+        "heapTotal": 10534912,
+        "heapUsed": 5038696,
+        "external": 29502999,
+        "arrayBuffers": 27531571
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "baseline",
+    "run": 3,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.6031485,
+      "ops": 66318.65950093551,
+      "maxRssKiB": 120936,
+      "memory": {
+        "rss": 90394624,
+        "heapTotal": 9748480,
+        "heapUsed": 3977712,
+        "external": 48179267,
+        "arrayBuffers": 46209295
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "baseline",
+    "run": 4,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.6639447,
+      "ops": 60245.98132946915,
+      "maxRssKiB": 120680,
+      "memory": {
+        "rss": 92241920,
+        "heapTotal": 9748480,
+        "heapUsed": 3990112,
+        "external": 50210883,
+        "arrayBuffers": 48240911
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "flag8",
+    "run": 4,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.55905,
+      "ops": 71549.95080940881,
+      "maxRssKiB": 75460,
+      "memory": {
+        "rss": 70811648,
+        "heapTotal": 10534912,
+        "heapUsed": 5038696,
+        "external": 29502999,
+        "arrayBuffers": 27531571
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "flag8",
+    "run": 5,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.5873515,
+      "ops": 68102.32033118157,
+      "maxRssKiB": 75284,
+      "memory": {
+        "rss": 70692864,
+        "heapTotal": 10534912,
+        "heapUsed": 5038696,
+        "external": 29502999,
+        "arrayBuffers": 27531571
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "baseline",
+    "run": 5,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.5961808999999999,
+      "ops": 67093.72943682027,
+      "maxRssKiB": 123424,
+      "memory": {
+        "rss": 84639744,
+        "heapTotal": 9486336,
+        "heapUsed": 3941312,
+        "external": 42215491,
+        "arrayBuffers": 40245519
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "baseline",
+    "run": 6,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.7400304999999999,
+      "ops": 54051.826242296775,
+      "maxRssKiB": 121296,
+      "memory": {
+        "rss": 89497600,
+        "heapTotal": 9748480,
+        "heapUsed": 3971584,
+        "external": 47163459,
+        "arrayBuffers": 45193487
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "flag8",
+    "run": 6,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.666122,
+      "ops": 60049.06008208707,
+      "maxRssKiB": 75160,
+      "memory": {
+        "rss": 70594560,
+        "heapTotal": 10534912,
+        "heapUsed": 5038696,
+        "external": 29502999,
+        "arrayBuffers": 27531571
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "flag8",
+    "run": 7,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.630417,
+      "ops": 63450.06559150531,
+      "maxRssKiB": 75276,
+      "memory": {
+        "rss": 70668288,
+        "heapTotal": 10534912,
+        "heapUsed": 5038696,
+        "external": 29502999,
+        "arrayBuffers": 27531571
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "baseline",
+    "run": 7,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.5997857,
+      "ops": 66690.48628535158,
+      "maxRssKiB": 122696,
+      "memory": {
+        "rss": 85065728,
+        "heapTotal": 9486336,
+        "heapUsed": 3944912,
+        "external": 42805315,
+        "arrayBuffers": 40835343
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "baseline",
+    "run": 8,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.6242785,
+      "ops": 64073.96698749036,
+      "maxRssKiB": 121472,
+      "memory": {
+        "rss": 92667904,
+        "heapTotal": 9224192,
+        "heapUsed": 3990912,
+        "external": 50341955,
+        "arrayBuffers": 48371983
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "buffer-retained",
+    "variant": "flag8",
+    "run": 8,
+    "data": {
+      "kind": "buffer-retained",
+      "operations": 40000,
+      "seconds": 0.5795361,
+      "ops": 69020.72191878987,
+      "maxRssKiB": 75324,
+      "memory": {
+        "rss": 70725632,
+        "heapTotal": 10534912,
+        "heapUsed": 5038696,
+        "external": 29502999,
+        "arrayBuffers": 27531571
+      },
+      "checksum": 5093856
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "baseline",
+    "run": 0,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.27340949999999997,
+      "ops": 18287586.93461639,
+      "maxRssKiB": 106664,
+      "memory": {
+        "rss": 109240320,
+        "heapTotal": 73973760,
+        "heapUsed": 33485688,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "flag8",
+    "run": 0,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.16708930000000002,
+      "ops": 29924118.420509268,
+      "maxRssKiB": 73828,
+      "memory": {
+        "rss": 75603968,
+        "heapTotal": 39895040,
+        "heapUsed": 9870576,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "flag8",
+    "run": 1,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.1144015,
+      "ops": 43705720.6417748,
+      "maxRssKiB": 73900,
+      "memory": {
+        "rss": 75685888,
+        "heapTotal": 40157184,
+        "heapUsed": 10475464,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "baseline",
+    "run": 1,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11103690000000001,
+      "ops": 45030075.58748488,
+      "maxRssKiB": 106720,
+      "memory": {
+        "rss": 109293568,
+        "heapTotal": 73711616,
+        "heapUsed": 33686664,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "baseline",
+    "run": 2,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.1095546,
+      "ops": 45639343.304617055,
+      "maxRssKiB": 106496,
+      "memory": {
+        "rss": 109064192,
+        "heapTotal": 73449472,
+        "heapUsed": 33553608,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "flag8",
+    "run": 2,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11123519999999999,
+      "ops": 44949800.06328932,
+      "maxRssKiB": 73996,
+      "memory": {
+        "rss": 75784192,
+        "heapTotal": 40419328,
+        "heapUsed": 11073864,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "flag8",
+    "run": 3,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11261209999999999,
+      "ops": 44400202.10972001,
+      "maxRssKiB": 73792,
+      "memory": {
+        "rss": 75579392,
+        "heapTotal": 39895040,
+        "heapUsed": 10549048,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "baseline",
+    "run": 3,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11277320000000002,
+      "ops": 44336775.04939116,
+      "maxRssKiB": 106836,
+      "memory": {
+        "rss": 109404160,
+        "heapTotal": 73711616,
+        "heapUsed": 33915040,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "baseline",
+    "run": 4,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.1082834,
+      "ops": 46175129.33653727,
+      "maxRssKiB": 106796,
+      "memory": {
+        "rss": 109371392,
+        "heapTotal": 73711616,
+        "heapUsed": 33467880,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "flag8",
+    "run": 4,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.1102422,
+      "ops": 45354682.68956897,
+      "maxRssKiB": 73724,
+      "memory": {
+        "rss": 75505664,
+        "heapTotal": 40157184,
+        "heapUsed": 10765480,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "flag8",
+    "run": 5,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11098480000000001,
+      "ops": 45051214.22032566,
+      "maxRssKiB": 73732,
+      "memory": {
+        "rss": 75517952,
+        "heapTotal": 40157184,
+        "heapUsed": 10791688,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "baseline",
+    "run": 5,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11689949999999999,
+      "ops": 42771782.59958341,
+      "maxRssKiB": 106680,
+      "memory": {
+        "rss": 109256704,
+        "heapTotal": 73711616,
+        "heapUsed": 33668032,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "baseline",
+    "run": 6,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11835409999999999,
+      "ops": 42246107.23244907,
+      "maxRssKiB": 106604,
+      "memory": {
+        "rss": 109166592,
+        "heapTotal": 73711616,
+        "heapUsed": 33593704,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "flag8",
+    "run": 6,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11895700000000001,
+      "ops": 42031994.754407056,
+      "maxRssKiB": 73872,
+      "memory": {
+        "rss": 75661312,
+        "heapTotal": 40157184,
+        "heapUsed": 10527168,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "flag8",
+    "run": 7,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11577549999999999,
+      "ops": 43187030.07112904,
+      "maxRssKiB": 74072,
+      "memory": {
+        "rss": 75866112,
+        "heapTotal": 40157184,
+        "heapUsed": 10631816,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "baseline",
+    "run": 7,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11842880000000001,
+      "ops": 42219460.1313194,
+      "maxRssKiB": 106668,
+      "memory": {
+        "rss": 109240320,
+        "heapTotal": 73711616,
+        "heapUsed": 33569400,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "baseline",
+    "run": 8,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.11803749999999999,
+      "ops": 42359419.675950445,
+      "maxRssKiB": 106568,
+      "memory": {
+        "rss": 109195264,
+        "heapTotal": 73711616,
+        "heapUsed": 33842504,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  },
+  {
+    "workload": "heap-churn",
+    "variant": "flag8",
+    "run": 8,
+    "data": {
+      "kind": "heap-churn",
+      "operations": 5000000,
+      "seconds": 0.1269658,
+      "ops": 39380683.61716305,
+      "maxRssKiB": 73996,
+      "memory": {
+        "rss": 75784192,
+        "heapTotal": 39895040,
+        "heapUsed": 10600904,
+        "external": 2108951,
+        "arrayBuffers": 137523
+      },
+      "checksum": 12499997500000
+    }
+  }
+]

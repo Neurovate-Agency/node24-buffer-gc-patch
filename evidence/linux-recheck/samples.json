@@ -1,0 +1,2042 @@
+[
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 0,
+    "ops": 17925.392187414993,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 17,925.392187414993\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 0,
+    "ops": 40833.135532520675,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 40,833.135532520675\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 1,
+    "ops": 41450.302563892925,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 41,450.302563892925\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 1,
+    "ops": 19017.228664965056,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 19,017.228664965056\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 2,
+    "ops": 18168.121845868136,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 18,168.121845868136\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 2,
+    "ops": 40669.108094229225,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 40,669.108094229225\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 3,
+    "ops": 40695.74305069216,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 40,695.74305069216\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 3,
+    "ops": 18958.844061683754,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 18,958.844061683754\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 4,
+    "ops": 16053.144036071539,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 16,053.144036071539\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 4,
+    "ops": 35974.585610097405,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 35,974.585610097405\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 5,
+    "ops": 35822.14151270846,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 35,822.14151270846\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 5,
+    "ops": 16076.189408609014,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 16,076.189408609014\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 6,
+    "ops": 16926.519805850312,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 16,926.519805850312\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 6,
+    "ops": 40777.97800467265,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 40,777.97800467265\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 7,
+    "ops": 38965.14725386988,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 38,965.14725386988\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 7,
+    "ops": 18150.23128481259,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 18,150.23128481259\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 8,
+    "ops": 19050.912605677768,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 19,050.912605677768\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 8,
+    "ops": 41782.89807137851,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 41,782.89807137851\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 9,
+    "ops": 40770.144191381645,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 40,770.144191381645\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 9,
+    "ops": 18932.518871265074,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 18,932.518871265074\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 10,
+    "ops": 18799.750337435544,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 18,799.750337435544\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 10,
+    "ops": 38932.874211963586,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 38,932.874211963586\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 11,
+    "ops": 38375.91493194051,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 38,375.91493194051\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 11,
+    "ops": 15916.055983183063,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 15,916.055983183063\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 12,
+    "ops": 16307.843633943856,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 16,307.843633943856\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 12,
+    "ops": 35883.01843185784,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 35,883.01843185784\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 13,
+    "ops": 36426.18323303041,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 36,426.18323303041\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 13,
+    "ops": 18855.741513518165,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 18,855.741513518165\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "baseline",
+    "run": 14,
+    "ops": 16794.256439535948,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 16,794.256439535948\n",
+    "stderr": ""
+  },
+  {
+    "workload": "stream-burst",
+    "binary": "patched",
+    "run": 14,
+    "ops": 40481.00468931149,
+    "stdout": "streams/readable-push-buffer-burst-minimal.js bodySize=122880 n=20000: 40,481.00468931149\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 0,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.18090930800000002,
+    "ops": 221105.26231187617,
+    "maxRssKiB": 158232,
+    "memory": {
+      "rss": 161382400,
+      "heapTotal": 7389184,
+      "heapUsed": 4011752,
+      "external": 83099751,
+      "arrayBuffers": 81205519
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.18090930800000002,\"ops\":221105.26231187617,\"maxRssKiB\":158232,\"memory\":{\"rss\":161382400,\"heapTotal\":7389184,\"heapUsed\":4011752,\"external\":83099751,\"arrayBuffers\":81205519},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 0,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.100052014,
+    "ops": 399792.0521619885,
+    "maxRssKiB": 94692,
+    "memory": {
+      "rss": 96964608,
+      "heapTotal": 8437760,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.100052014,\"ops\":399792.0521619885,\"maxRssKiB\":94692,\"memory\":{\"rss\":96964608,\"heapTotal\":8437760,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 1,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.101765898,
+    "ops": 393058.97934492753,
+    "maxRssKiB": 94512,
+    "memory": {
+      "rss": 96780288,
+      "heapTotal": 8437760,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.101765898,\"ops\":393058.97934492753,\"maxRssKiB\":94512,\"memory\":{\"rss\":96780288,\"heapTotal\":8437760,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 1,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.178079825,
+    "ops": 224618.369879912,
+    "maxRssKiB": 147196,
+    "memory": {
+      "rss": 150401024,
+      "heapTotal": 7127040,
+      "heapUsed": 3616128,
+      "external": 18284647,
+      "arrayBuffers": 16390415
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.178079825,\"ops\":224618.369879912,\"maxRssKiB\":147196,\"memory\":{\"rss\":150401024,\"heapTotal\":7127040,\"heapUsed\":3616128,\"external\":18284647,\"arrayBuffers\":16390415},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 2,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.17702743599999998,
+    "ops": 225953.6764685447,
+    "maxRssKiB": 157740,
+    "memory": {
+      "rss": 161288192,
+      "heapTotal": 7127040,
+      "heapUsed": 3681728,
+      "external": 29032551,
+      "arrayBuffers": 27138319
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.17702743599999998,\"ops\":225953.6764685447,\"maxRssKiB\":157740,\"memory\":{\"rss\":161288192,\"heapTotal\":7127040,\"heapUsed\":3681728,\"external\":29032551,\"arrayBuffers\":27138319},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 2,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.10355326299999999,
+    "ops": 386274.64592786424,
+    "maxRssKiB": 94404,
+    "memory": {
+      "rss": 96387072,
+      "heapTotal": 8437760,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.10355326299999999,\"ops\":386274.64592786424,\"maxRssKiB\":94404,\"memory\":{\"rss\":96387072,\"heapTotal\":8437760,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 3,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.103095997,
+    "ops": 387987.90606777876,
+    "maxRssKiB": 94440,
+    "memory": {
+      "rss": 96706560,
+      "heapTotal": 7913472,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.103095997,\"ops\":387987.90606777876,\"maxRssKiB\":94440,\"memory\":{\"rss\":96706560,\"heapTotal\":7913472,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 3,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.17706642100000003,
+    "ops": 225903.9278825204,
+    "maxRssKiB": 160308,
+    "memory": {
+      "rss": 163500032,
+      "heapTotal": 7127040,
+      "heapUsed": 4016752,
+      "external": 83918951,
+      "arrayBuffers": 82024719
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.17706642100000003,\"ops\":225903.9278825204,\"maxRssKiB\":160308,\"memory\":{\"rss\":163500032,\"heapTotal\":7127040,\"heapUsed\":4016752,\"external\":83918951,\"arrayBuffers\":82024719},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 4,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.182411247,
+    "ops": 219284.72425825804,
+    "maxRssKiB": 163992,
+    "memory": {
+      "rss": 167124992,
+      "heapTotal": 7127040,
+      "heapUsed": 3876152,
+      "external": 60883047,
+      "arrayBuffers": 58988815
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.182411247,\"ops\":219284.72425825804,\"maxRssKiB\":163992,\"memory\":{\"rss\":167124992,\"heapTotal\":7127040,\"heapUsed\":3876152,\"external\":60883047,\"arrayBuffers\":58988815},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 4,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.103260784,
+    "ops": 387368.74203860393,
+    "maxRssKiB": 94440,
+    "memory": {
+      "rss": 96391168,
+      "heapTotal": 8437760,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.103260784,\"ops\":387368.74203860393,\"maxRssKiB\":94440,\"memory\":{\"rss\":96391168,\"heapTotal\":8437760,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 5,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.100335608,
+    "ops": 398662.0582395833,
+    "maxRssKiB": 94928,
+    "memory": {
+      "rss": 97206272,
+      "heapTotal": 8437760,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.100335608,\"ops\":398662.0582395833,\"maxRssKiB\":94928,\"memory\":{\"rss\":97206272,\"heapTotal\":8437760,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 5,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.172487549,
+    "ops": 231900.7965032885,
+    "maxRssKiB": 145572,
+    "memory": {
+      "rss": 148824064,
+      "heapTotal": 7127040,
+      "heapUsed": 4013952,
+      "external": 83460199,
+      "arrayBuffers": 81565967
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.172487549,\"ops\":231900.7965032885,\"maxRssKiB\":145572,\"memory\":{\"rss\":148824064,\"heapTotal\":7127040,\"heapUsed\":4013952,\"external\":83460199,\"arrayBuffers\":81565967},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 6,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.178683911,
+    "ops": 223858.99086348072,
+    "maxRssKiB": 157904,
+    "memory": {
+      "rss": 161284096,
+      "heapTotal": 7389184,
+      "heapUsed": 3985952,
+      "external": 78872679,
+      "arrayBuffers": 76978447
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.178683911,\"ops\":223858.99086348072,\"maxRssKiB\":157904,\"memory\":{\"rss\":161284096,\"heapTotal\":7389184,\"heapUsed\":3985952,\"external\":78872679,\"arrayBuffers\":76978447},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 6,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.099208933,
+    "ops": 403189.4990746448,
+    "maxRssKiB": 94416,
+    "memory": {
+      "rss": 96681984,
+      "heapTotal": 7651328,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.099208933,\"ops\":403189.4990746448,\"maxRssKiB\":94416,\"memory\":{\"rss\":96681984,\"heapTotal\":7651328,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 7,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.10169534400000001,
+    "ops": 393331.6750469913,
+    "maxRssKiB": 94664,
+    "memory": {
+      "rss": 96935936,
+      "heapTotal": 7651328,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.10169534400000001,\"ops\":393331.6750469913,\"maxRssKiB\":94664,\"memory\":{\"rss\":96935936,\"heapTotal\":7651328,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 7,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.18081639200000002,
+    "ops": 221218.88152706862,
+    "maxRssKiB": 162952,
+    "memory": {
+      "rss": 166293504,
+      "heapTotal": 7389184,
+      "heapUsed": 3922552,
+      "external": 68485223,
+      "arrayBuffers": 66590991
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.18081639200000002,\"ops\":221218.88152706862,\"maxRssKiB\":162952,\"memory\":{\"rss\":166293504,\"heapTotal\":7389184,\"heapUsed\":3922552,\"external\":68485223,\"arrayBuffers\":66590991},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 8,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.183200318,
+    "ops": 218340.23235702026,
+    "maxRssKiB": 157600,
+    "memory": {
+      "rss": 161382400,
+      "heapTotal": 6864896,
+      "heapUsed": 3668928,
+      "external": 26935399,
+      "arrayBuffers": 25041167
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.183200318,\"ops\":218340.23235702026,\"maxRssKiB\":157600,\"memory\":{\"rss\":161382400,\"heapTotal\":6864896,\"heapUsed\":3668928,\"external\":26935399,\"arrayBuffers\":25041167},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 8,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.101270179,
+    "ops": 394983.0087690474,
+    "maxRssKiB": 94572,
+    "memory": {
+      "rss": 96841728,
+      "heapTotal": 7651328,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.101270179,\"ops\":394983.0087690474,\"maxRssKiB\":94572,\"memory\":{\"rss\":96841728,\"heapTotal\":7651328,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 9,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.100528659,
+    "ops": 397896.4844244068,
+    "maxRssKiB": 94672,
+    "memory": {
+      "rss": 96944128,
+      "heapTotal": 7913472,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.100528659,\"ops\":397896.4844244068,\"maxRssKiB\":94672,\"memory\":{\"rss\":96944128,\"heapTotal\":7913472,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 9,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.17755710699999996,
+    "ops": 225279.6335547414,
+    "maxRssKiB": 158412,
+    "memory": {
+      "rss": 162095104,
+      "heapTotal": 7127040,
+      "heapUsed": 3881952,
+      "external": 61833319,
+      "arrayBuffers": 59939087
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.17755710699999996,\"ops\":225279.6335547414,\"maxRssKiB\":158412,\"memory\":{\"rss\":162095104,\"heapTotal\":7127040,\"heapUsed\":3881952,\"external\":61833319,\"arrayBuffers\":59939087},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 10,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.17748362,
+    "ops": 225372.9104691464,
+    "maxRssKiB": 158396,
+    "memory": {
+      "rss": 162127872,
+      "heapTotal": 7127040,
+      "heapUsed": 3605928,
+      "external": 100597863,
+      "arrayBuffers": 14719247
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.17748362,\"ops\":225372.9104691464,\"maxRssKiB\":158396,\"memory\":{\"rss\":162127872,\"heapTotal\":7127040,\"heapUsed\":3605928,\"external\":100597863,\"arrayBuffers\":14719247},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 10,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.101078071,
+    "ops": 395733.709639156,
+    "maxRssKiB": 94668,
+    "memory": {
+      "rss": 96595968,
+      "heapTotal": 8437760,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.101078071,\"ops\":395733.709639156,\"maxRssKiB\":94668,\"memory\":{\"rss\":96595968,\"heapTotal\":8437760,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 11,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.10233744399999999,
+    "ops": 390863.77807129914,
+    "maxRssKiB": 94796,
+    "memory": {
+      "rss": 97071104,
+      "heapTotal": 8437760,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.10233744399999999,\"ops\":390863.77807129914,\"maxRssKiB\":94796,\"memory\":{\"rss\":97071104,\"heapTotal\":8437760,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 11,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.177791914,
+    "ops": 224982.11026627454,
+    "maxRssKiB": 157556,
+    "memory": {
+      "rss": 161337344,
+      "heapTotal": 7389184,
+      "heapUsed": 4035608,
+      "external": 86999143,
+      "arrayBuffers": 85104911
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.177791914,\"ops\":224982.11026627454,\"maxRssKiB\":157556,\"memory\":{\"rss\":161337344,\"heapTotal\":7389184,\"heapUsed\":4035608,\"external\":86999143,\"arrayBuffers\":85104911},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 12,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.17893540100000002,
+    "ops": 223544.36168838383,
+    "maxRssKiB": 153904,
+    "memory": {
+      "rss": 157032448,
+      "heapTotal": 7389184,
+      "heapUsed": 3769872,
+      "external": 43450471,
+      "arrayBuffers": 41556239
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.17893540100000002,\"ops\":223544.36168838383,\"maxRssKiB\":153904,\"memory\":{\"rss\":157032448,\"heapTotal\":7389184,\"heapUsed\":3769872,\"external\":43450471,\"arrayBuffers\":41556239},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 12,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.102095775,
+    "ops": 391788.9844119407,
+    "maxRssKiB": 94760,
+    "memory": {
+      "rss": 97034240,
+      "heapTotal": 8175616,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.102095775,\"ops\":391788.9844119407,\"maxRssKiB\":94760,\"memory\":{\"rss\":97034240,\"heapTotal\":8175616,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 13,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.10254585799999999,
+    "ops": 390069.38729792484,
+    "maxRssKiB": 94868,
+    "memory": {
+      "rss": 97144832,
+      "heapTotal": 8437760,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.10254585799999999,\"ops\":390069.38729792484,\"maxRssKiB\":94868,\"memory\":{\"rss\":97144832,\"heapTotal\":8437760,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 13,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.180456422,
+    "ops": 221660.16347148898,
+    "maxRssKiB": 158924,
+    "memory": {
+      "rss": 162578432,
+      "heapTotal": 7127040,
+      "heapUsed": 3534328,
+      "external": 89587815,
+      "arrayBuffers": 7772431
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.180456422,\"ops\":221660.16347148898,\"maxRssKiB\":158924,\"memory\":{\"rss\":162578432,\"heapTotal\":7127040,\"heapUsed\":3534328,\"external\":89587815,\"arrayBuffers\":7772431},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "baseline",
+    "run": 14,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.18397637800000002,
+    "ops": 217419.21672139884,
+    "maxRssKiB": 166868,
+    "memory": {
+      "rss": 170524672,
+      "heapTotal": 7127040,
+      "heapUsed": 3824752,
+      "external": 52461671,
+      "arrayBuffers": 50567439
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.18397637800000002,\"ops\":217419.21672139884,\"maxRssKiB\":166868,\"memory\":{\"rss\":170524672,\"heapTotal\":7127040,\"heapUsed\":3824752,\"external\":52461671,\"arrayBuffers\":50567439},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-churn",
+    "binary": "patched",
+    "run": 14,
+    "kind": "buffer-churn",
+    "operations": 40000,
+    "seconds": 0.102227991,
+    "ops": 391282.26632175525,
+    "maxRssKiB": 94696,
+    "memory": {
+      "rss": 96657408,
+      "heapTotal": 7913472,
+      "heapUsed": 4720104,
+      "external": 39060990,
+      "arrayBuffers": 3643699
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-churn\",\"operations\":40000,\"seconds\":0.102227991,\"ops\":391282.26632175525,\"maxRssKiB\":94696,\"memory\":{\"rss\":96657408,\"heapTotal\":7913472,\"heapUsed\":4720104,\"external\":39060990,\"arrayBuffers\":3643699},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 0,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.18027034600000003,
+    "ops": 221888.96225893966,
+    "maxRssKiB": 157784,
+    "memory": {
+      "rss": 161144832,
+      "heapTotal": 9224192,
+      "heapUsed": 3785840,
+      "external": 45744231,
+      "arrayBuffers": 43849999
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.18027034600000003,\"ops\":221888.96225893966,\"maxRssKiB\":157784,\"memory\":{\"rss\":161144832,\"heapTotal\":9224192,\"heapUsed\":3785840,\"external\":45744231,\"arrayBuffers\":43849999},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 0,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.103315635,
+    "ops": 387163.08523874433,
+    "maxRssKiB": 94800,
+    "memory": {
+      "rss": 96636928,
+      "heapTotal": 10010624,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.103315635,\"ops\":387163.08523874433,\"maxRssKiB\":94800,\"memory\":{\"rss\":96636928,\"heapTotal\":10010624,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 1,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.100987833,
+    "ops": 396087.318756508,
+    "maxRssKiB": 94956,
+    "memory": {
+      "rss": 96935936,
+      "heapTotal": 9748480,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.100987833,\"ops\":396087.318756508,\"maxRssKiB\":94956,\"memory\":{\"rss\":96935936,\"heapTotal\":9748480,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 1,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.18197317300000002,
+    "ops": 219812.62040201935,
+    "maxRssKiB": 158672,
+    "memory": {
+      "rss": 162025472,
+      "heapTotal": 9486336,
+      "heapUsed": 3660368,
+      "external": 108560487,
+      "arrayBuffers": 23304463
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.18197317300000002,\"ops\":219812.62040201935,\"maxRssKiB\":158672,\"memory\":{\"rss\":162025472,\"heapTotal\":9486336,\"heapUsed\":3660368,\"external\":108560487,\"arrayBuffers\":23304463},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 2,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.188250896,
+    "ops": 212482.3883972377,
+    "maxRssKiB": 160176,
+    "memory": {
+      "rss": 162185216,
+      "heapTotal": 9486336,
+      "heapUsed": 3571968,
+      "external": 96403559,
+      "arrayBuffers": 8821007
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.188250896,\"ops\":212482.3883972377,\"maxRssKiB\":160176,\"memory\":{\"rss\":162185216,\"heapTotal\":9486336,\"heapUsed\":3571968,\"external\":96403559,\"arrayBuffers\":8821007},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 2,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.102316225,
+    "ops": 390944.8379277089,
+    "maxRssKiB": 94800,
+    "memory": {
+      "rss": 97075200,
+      "heapTotal": 10534912,
+      "heapUsed": 4868016,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.102316225,\"ops\":390944.8379277089,\"maxRssKiB\":94800,\"memory\":{\"rss\":97075200,\"heapTotal\":10534912,\"heapUsed\":4868016,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 3,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.10483614499999999,
+    "ops": 381547.7953715296,
+    "maxRssKiB": 95172,
+    "memory": {
+      "rss": 97026048,
+      "heapTotal": 9748480,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.10483614499999999,\"ops\":381547.7953715296,\"maxRssKiB\":95172,\"memory\":{\"rss\":97026048,\"heapTotal\":9748480,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 3,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.184109417,
+    "ops": 217262.10778235205,
+    "maxRssKiB": 159504,
+    "memory": {
+      "rss": 163004416,
+      "heapTotal": 9486336,
+      "heapUsed": 3604168,
+      "external": 100368487,
+      "arrayBuffers": 14096655
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.184109417,\"ops\":217262.10778235205,\"maxRssKiB\":159504,\"memory\":{\"rss\":163004416,\"heapTotal\":9486336,\"heapUsed\":3604168,\"external\":100368487,\"arrayBuffers\":14096655},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 4,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.18269224300000003,
+    "ops": 218947.44595149555,
+    "maxRssKiB": 159516,
+    "memory": {
+      "rss": 161755136,
+      "heapTotal": 9224192,
+      "heapUsed": 3719168,
+      "external": 34832487,
+      "arrayBuffers": 32938255
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.18269224300000003,\"ops\":218947.44595149555,\"maxRssKiB\":159516,\"memory\":{\"rss\":161755136,\"heapTotal\":9224192,\"heapUsed\":3719168,\"external\":34832487,\"arrayBuffers\":32938255},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 4,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.10316202899999999,
+    "ops": 387739.5625865405,
+    "maxRssKiB": 95052,
+    "memory": {
+      "rss": 97251328,
+      "heapTotal": 10534912,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.10316202899999999,\"ops\":387739.5625865405,\"maxRssKiB\":95052,\"memory\":{\"rss\":97251328,\"heapTotal\":10534912,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 5,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.101287551,
+    "ops": 394915.26456197957,
+    "maxRssKiB": 94928,
+    "memory": {
+      "rss": 97046528,
+      "heapTotal": 10534912,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.101287551,\"ops\":394915.26456197957,\"maxRssKiB\":94928,\"memory\":{\"rss\":97046528,\"heapTotal\":10534912,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 5,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.17937028099999996,
+    "ops": 223002.38242922755,
+    "maxRssKiB": 158788,
+    "memory": {
+      "rss": 162119680,
+      "heapTotal": 9224192,
+      "heapUsed": 3727968,
+      "external": 36274279,
+      "arrayBuffers": 34380047
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.17937028099999996,\"ops\":223002.38242922755,\"maxRssKiB\":158788,\"memory\":{\"rss\":162119680,\"heapTotal\":9224192,\"heapUsed\":3727968,\"external\":36274279,\"arrayBuffers\":34380047},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 6,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.182203015,
+    "ops": 219535.3353510643,
+    "maxRssKiB": 159648,
+    "memory": {
+      "rss": 162123776,
+      "heapTotal": 9224192,
+      "heapUsed": 4045592,
+      "external": 88309863,
+      "arrayBuffers": 86415631
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.182203015,\"ops\":219535.3353510643,\"maxRssKiB\":159648,\"memory\":{\"rss\":162123776,\"heapTotal\":9224192,\"heapUsed\":4045592,\"external\":88309863,\"arrayBuffers\":86415631},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 6,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.103069748,
+    "ops": 388086.7158033606,
+    "maxRssKiB": 94860,
+    "memory": {
+      "rss": 96841728,
+      "heapTotal": 10534912,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.103069748,\"ops\":388086.7158033606,\"maxRssKiB\":94860,\"memory\":{\"rss\":96841728,\"heapTotal\":10534912,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 7,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.10680947599999999,
+    "ops": 374498.60722095484,
+    "maxRssKiB": 100924,
+    "memory": {
+      "rss": 96800768,
+      "heapTotal": 9748480,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.10680947599999999,\"ops\":374498.60722095484,\"maxRssKiB\":100924,\"memory\":{\"rss\":96800768,\"heapTotal\":9748480,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 7,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.181290404,
+    "ops": 220640.4703031055,
+    "maxRssKiB": 158816,
+    "memory": {
+      "rss": 161947648,
+      "heapTotal": 9486336,
+      "heapUsed": 3901392,
+      "external": 64684135,
+      "arrayBuffers": 62789903
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.181290404,\"ops\":220640.4703031055,\"maxRssKiB\":158816,\"memory\":{\"rss\":161947648,\"heapTotal\":9486336,\"heapUsed\":3901392,\"external\":64684135,\"arrayBuffers\":62789903},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 8,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.183372481,
+    "ops": 218135.23916928406,
+    "maxRssKiB": 162776,
+    "memory": {
+      "rss": 166227968,
+      "heapTotal": 9224192,
+      "heapUsed": 3760168,
+      "external": 41549927,
+      "arrayBuffers": 39655695
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.183372481,\"ops\":218135.23916928406,\"maxRssKiB\":162776,\"memory\":{\"rss\":166227968,\"heapTotal\":9224192,\"heapUsed\":3760168,\"external\":41549927,\"arrayBuffers\":39655695},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 8,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.101687405,
+    "ops": 393362.38347315486,
+    "maxRssKiB": 94748,
+    "memory": {
+      "rss": 96837632,
+      "heapTotal": 10010624,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.101687405,\"ops\":393362.38347315486,\"maxRssKiB\":94748,\"memory\":{\"rss\":96837632,\"heapTotal\":10010624,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 9,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.103696884,
+    "ops": 385739.6525048911,
+    "maxRssKiB": 94924,
+    "memory": {
+      "rss": 96907264,
+      "heapTotal": 9748480,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.103696884,\"ops\":385739.6525048911,\"maxRssKiB\":94924,\"memory\":{\"rss\":96907264,\"heapTotal\":9748480,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 9,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.180523026,
+    "ops": 221578.38191788344,
+    "maxRssKiB": 159324,
+    "memory": {
+      "rss": 162844672,
+      "heapTotal": 9224192,
+      "heapUsed": 3570768,
+      "external": 96370791,
+      "arrayBuffers": 8624399
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.180523026,\"ops\":221578.38191788344,\"maxRssKiB\":159324,\"memory\":{\"rss\":162844672,\"heapTotal\":9224192,\"heapUsed\":3570768,\"external\":96370791,\"arrayBuffers\":8624399},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 10,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.17738277600000002,
+    "ops": 225501.0373724222,
+    "maxRssKiB": 158172,
+    "memory": {
+      "rss": 161599488,
+      "heapTotal": 9486336,
+      "heapUsed": 3937792,
+      "external": 70647911,
+      "arrayBuffers": 68753679
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.17738277600000002,\"ops\":225501.0373724222,\"maxRssKiB\":158172,\"memory\":{\"rss\":161599488,\"heapTotal\":9486336,\"heapUsed\":3937792,\"external\":70647911,\"arrayBuffers\":68753679},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 10,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.10220233299999999,
+    "ops": 391380.4981340299,
+    "maxRssKiB": 94800,
+    "memory": {
+      "rss": 96870400,
+      "heapTotal": 9748480,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.10220233299999999,\"ops\":391380.4981340299,\"maxRssKiB\":94800,\"memory\":{\"rss\":96870400,\"heapTotal\":9748480,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 11,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.10315862999999999,
+    "ops": 387752.33831624174,
+    "maxRssKiB": 95148,
+    "memory": {
+      "rss": 97431552,
+      "heapTotal": 10534912,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.10315862999999999,\"ops\":387752.33831624174,\"maxRssKiB\":95148,\"memory\":{\"rss\":97431552,\"heapTotal\":10534912,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 11,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.182289573,
+    "ops": 219431.09165108416,
+    "maxRssKiB": 158104,
+    "memory": {
+      "rss": 161525760,
+      "heapTotal": 9224192,
+      "heapUsed": 3666768,
+      "external": 111935591,
+      "arrayBuffers": 24353039
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.182289573,\"ops\":219431.09165108416,\"maxRssKiB\":158104,\"memory\":{\"rss\":161525760,\"heapTotal\":9224192,\"heapUsed\":3666768,\"external\":111935591,\"arrayBuffers\":24353039},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 12,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.182642369,
+    "ops": 219007.23374870373,
+    "maxRssKiB": 159192,
+    "memory": {
+      "rss": 162635776,
+      "heapTotal": 9224192,
+      "heapUsed": 3785368,
+      "external": 45678695,
+      "arrayBuffers": 43784463
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.182642369,\"ops\":219007.23374870373,\"maxRssKiB\":159192,\"memory\":{\"rss\":162635776,\"heapTotal\":9224192,\"heapUsed\":3785368,\"external\":45678695,\"arrayBuffers\":43784463},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 12,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.101337803,
+    "ops": 394719.4316024396,
+    "maxRssKiB": 95056,
+    "memory": {
+      "rss": 97054720,
+      "heapTotal": 10534912,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.101337803,\"ops\":394719.4316024396,\"maxRssKiB\":95056,\"memory\":{\"rss\":97054720,\"heapTotal\":10534912,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 13,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.111446736,
+    "ops": 358915.8501689991,
+    "maxRssKiB": 95052,
+    "memory": {
+      "rss": 97333248,
+      "heapTotal": 10010624,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.111446736,\"ops\":358915.8501689991,\"maxRssKiB\":95052,\"memory\":{\"rss\":97333248,\"heapTotal\":10010624,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 13,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.18847343,
+    "ops": 212231.50658424373,
+    "maxRssKiB": 159056,
+    "memory": {
+      "rss": 162050048,
+      "heapTotal": 9486336,
+      "heapUsed": 3668968,
+      "external": 26607719,
+      "arrayBuffers": 24713487
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.18847343,\"ops\":212231.50658424373,\"maxRssKiB\":159056,\"memory\":{\"rss\":162050048,\"heapTotal\":9486336,\"heapUsed\":3668968,\"external\":26607719,\"arrayBuffers\":24713487},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "baseline",
+    "run": 14,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.183143744,
+    "ops": 218407.67872475076,
+    "maxRssKiB": 158484,
+    "memory": {
+      "rss": 161755136,
+      "heapTotal": 9486336,
+      "heapUsed": 3675568,
+      "external": 110755943,
+      "arrayBuffers": 25794831
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.183143744,\"ops\":218407.67872475076,\"maxRssKiB\":158484,\"memory\":{\"rss\":161755136,\"heapTotal\":9486336,\"heapUsed\":3675568,\"external\":110755943,\"arrayBuffers\":25794831},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "buffer-retained",
+    "binary": "patched",
+    "run": 14,
+    "kind": "buffer-retained",
+    "operations": 40000,
+    "seconds": 0.103052887,
+    "ops": 388150.21261849755,
+    "maxRssKiB": 94872,
+    "memory": {
+      "rss": 96911360,
+      "heapTotal": 9748480,
+      "heapUsed": 4867944,
+      "external": 29427198,
+      "arrayBuffers": 27531571
+    },
+    "checksum": 5093856,
+    "stdout": "{\"kind\":\"buffer-retained\",\"operations\":40000,\"seconds\":0.103052887,\"ops\":388150.21261849755,\"maxRssKiB\":94872,\"memory\":{\"rss\":96911360,\"heapTotal\":9748480,\"heapUsed\":4867944,\"external\":29427198,\"arrayBuffers\":27531571},\"checksum\":5093856}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 0,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.115948004,
+    "ops": 43122777.68921318,
+    "maxRssKiB": 127008,
+    "memory": {
+      "rss": 130056192,
+      "heapTotal": 73711616,
+      "heapUsed": 32772192,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.115948004,\"ops\":43122777.68921318,\"maxRssKiB\":127008,\"memory\":{\"rss\":130056192,\"heapTotal\":73711616,\"heapUsed\":32772192,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 0,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.10602387499999999,
+    "ops": 47159189.38069374,
+    "maxRssKiB": 93516,
+    "memory": {
+      "rss": 95760384,
+      "heapTotal": 39895040,
+      "heapUsed": 9058752,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.10602387499999999,\"ops\":47159189.38069374,\"maxRssKiB\":93516,\"memory\":{\"rss\":95760384,\"heapTotal\":39895040,\"heapUsed\":9058752,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 1,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.102456817,
+    "ops": 48801047.56719116,
+    "maxRssKiB": 93648,
+    "memory": {
+      "rss": 95895552,
+      "heapTotal": 40157184,
+      "heapUsed": 9122256,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.102456817,\"ops\":48801047.56719116,\"maxRssKiB\":93648,\"memory\":{\"rss\":95895552,\"heapTotal\":40157184,\"heapUsed\":9122256,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 1,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.111943774,
+    "ops": 44665279.91096673,
+    "maxRssKiB": 126800,
+    "memory": {
+      "rss": 129843200,
+      "heapTotal": 73449472,
+      "heapUsed": 32454112,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.111943774,\"ops\":44665279.91096673,\"maxRssKiB\":126800,\"memory\":{\"rss\":129843200,\"heapTotal\":73449472,\"heapUsed\":32454112,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 2,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.11135693,
+    "ops": 44900663.11993335,
+    "maxRssKiB": 126544,
+    "memory": {
+      "rss": 129581056,
+      "heapTotal": 73711616,
+      "heapUsed": 32704704,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.11135693,\"ops\":44900663.11993335,\"maxRssKiB\":126544,\"memory\":{\"rss\":129581056,\"heapTotal\":73711616,\"heapUsed\":32704704,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 2,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.10521388799999999,
+    "ops": 47522243.45135882,
+    "maxRssKiB": 93416,
+    "memory": {
+      "rss": 95657984,
+      "heapTotal": 39895040,
+      "heapUsed": 9652448,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.10521388799999999,\"ops\":47522243.45135882,\"maxRssKiB\":93416,\"memory\":{\"rss\":95657984,\"heapTotal\":39895040,\"heapUsed\":9652448,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 3,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.10648716,
+    "ops": 46954017.74260859,
+    "maxRssKiB": 93904,
+    "memory": {
+      "rss": 96157696,
+      "heapTotal": 39895040,
+      "heapUsed": 9432544,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.10648716,\"ops\":46954017.74260859,\"maxRssKiB\":93904,\"memory\":{\"rss\":96157696,\"heapTotal\":39895040,\"heapUsed\":9432544,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 3,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.11167567300000002,
+    "ops": 44772508.3331264,
+    "maxRssKiB": 127052,
+    "memory": {
+      "rss": 130101248,
+      "heapTotal": 73449472,
+      "heapUsed": 32353088,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.11167567300000002,\"ops\":44772508.3331264,\"maxRssKiB\":127052,\"memory\":{\"rss\":130101248,\"heapTotal\":73449472,\"heapUsed\":32353088,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 4,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.11469396999999999,
+    "ops": 43594270.910667755,
+    "maxRssKiB": 126916,
+    "memory": {
+      "rss": 129961984,
+      "heapTotal": 73973760,
+      "heapUsed": 32500032,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.11469396999999999,\"ops\":43594270.910667755,\"maxRssKiB\":126916,\"memory\":{\"rss\":129961984,\"heapTotal\":73973760,\"heapUsed\":32500032,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 4,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.10027718199999999,
+    "ops": 49861792.08745615,
+    "maxRssKiB": 93476,
+    "memory": {
+      "rss": 95719424,
+      "heapTotal": 40157184,
+      "heapUsed": 9374976,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.10027718199999999,\"ops\":49861792.08745615,\"maxRssKiB\":93476,\"memory\":{\"rss\":95719424,\"heapTotal\":40157184,\"heapUsed\":9374976,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 5,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.10736856799999998,
+    "ops": 46568563.71596575,
+    "maxRssKiB": 93644,
+    "memory": {
+      "rss": 95891456,
+      "heapTotal": 39895040,
+      "heapUsed": 9751952,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.10736856799999998,\"ops\":46568563.71596575,\"maxRssKiB\":93644,\"memory\":{\"rss\":95891456,\"heapTotal\":39895040,\"heapUsed\":9751952,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 5,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.11454357899999999,
+    "ops": 43651508.392277494,
+    "maxRssKiB": 126720,
+    "memory": {
+      "rss": 129892352,
+      "heapTotal": 73973760,
+      "heapUsed": 32417488,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.11454357899999999,\"ops\":43651508.392277494,\"maxRssKiB\":126720,\"memory\":{\"rss\":129892352,\"heapTotal\":73973760,\"heapUsed\":32417488,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 6,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.123755091,
+    "ops": 40402378.274684474,
+    "maxRssKiB": 126668,
+    "memory": {
+      "rss": 129708032,
+      "heapTotal": 73449472,
+      "heapUsed": 32369104,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.123755091,\"ops\":40402378.274684474,\"maxRssKiB\":126668,\"memory\":{\"rss\":129708032,\"heapTotal\":73449472,\"heapUsed\":32369104,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 6,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.10764369099999999,
+    "ops": 46449540.64237727,
+    "maxRssKiB": 93588,
+    "memory": {
+      "rss": 95834112,
+      "heapTotal": 40157184,
+      "heapUsed": 9247520,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.10764369099999999,\"ops\":46449540.64237727,\"maxRssKiB\":93588,\"memory\":{\"rss\":95834112,\"heapTotal\":40157184,\"heapUsed\":9247520,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 7,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.10428773699999999,
+    "ops": 47944275.55753751,
+    "maxRssKiB": 93804,
+    "memory": {
+      "rss": 96055296,
+      "heapTotal": 40157184,
+      "heapUsed": 9391104,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.10428773699999999,\"ops\":47944275.55753751,\"maxRssKiB\":93804,\"memory\":{\"rss\":96055296,\"heapTotal\":40157184,\"heapUsed\":9391104,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 7,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.116965567,
+    "ops": 42747623.32405057,
+    "maxRssKiB": 126368,
+    "memory": {
+      "rss": 129400832,
+      "heapTotal": 73449472,
+      "heapUsed": 32507904,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.116965567,\"ops\":42747623.32405057,\"maxRssKiB\":126368,\"memory\":{\"rss\":129400832,\"heapTotal\":73449472,\"heapUsed\":32507904,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 8,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.114449975,
+    "ops": 43687209.19336156,
+    "maxRssKiB": 126952,
+    "memory": {
+      "rss": 129998848,
+      "heapTotal": 73973760,
+      "heapUsed": 32679392,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.114449975,\"ops\":43687209.19336156,\"maxRssKiB\":126952,\"memory\":{\"rss\":129998848,\"heapTotal\":73973760,\"heapUsed\":32679392,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 8,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.101209868,
+    "ops": 49402297.412343234,
+    "maxRssKiB": 93092,
+    "memory": {
+      "rss": 95326208,
+      "heapTotal": 39895040,
+      "heapUsed": 9502368,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.101209868,\"ops\":49402297.412343234,\"maxRssKiB\":93092,\"memory\":{\"rss\":95326208,\"heapTotal\":39895040,\"heapUsed\":9502368,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 9,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.10206967499999998,
+    "ops": 48986145.98312379,
+    "maxRssKiB": 93720,
+    "memory": {
+      "rss": 95969280,
+      "heapTotal": 39895040,
+      "heapUsed": 9390096,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.10206967499999998,\"ops\":48986145.98312379,\"maxRssKiB\":93720,\"memory\":{\"rss\":95969280,\"heapTotal\":39895040,\"heapUsed\":9390096,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 9,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.11433001400000001,
+    "ops": 43733048.086568065,
+    "maxRssKiB": 126828,
+    "memory": {
+      "rss": 129871872,
+      "heapTotal": 73973760,
+      "heapUsed": 32601664,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.11433001400000001,\"ops\":43733048.086568065,\"maxRssKiB\":126828,\"memory\":{\"rss\":129871872,\"heapTotal\":73973760,\"heapUsed\":32601664,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 10,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.11314074099999999,
+    "ops": 44192745.741341755,
+    "maxRssKiB": 126608,
+    "memory": {
+      "rss": 129646592,
+      "heapTotal": 73449472,
+      "heapUsed": 32475840,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.11314074099999999,\"ops\":44192745.741341755,\"maxRssKiB\":126608,\"memory\":{\"rss\":129646592,\"heapTotal\":73449472,\"heapUsed\":32475840,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 10,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.10268167700000001,
+    "ops": 48694179.390934564,
+    "maxRssKiB": 93008,
+    "memory": {
+      "rss": 95240192,
+      "heapTotal": 40419328,
+      "heapUsed": 9544800,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.10268167700000001,\"ops\":48694179.390934564,\"maxRssKiB\":93008,\"memory\":{\"rss\":95240192,\"heapTotal\":40419328,\"heapUsed\":9544800,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 11,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.108987651,
+    "ops": 45876757.174994074,
+    "maxRssKiB": 93488,
+    "memory": {
+      "rss": 95731712,
+      "heapTotal": 40157184,
+      "heapUsed": 9390320,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.108987651,\"ops\":45876757.174994074,\"maxRssKiB\":93488,\"memory\":{\"rss\":95731712,\"heapTotal\":40157184,\"heapUsed\":9390320,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 11,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.117335757,
+    "ops": 42612756.143892266,
+    "maxRssKiB": 126800,
+    "memory": {
+      "rss": 129843200,
+      "heapTotal": 73449472,
+      "heapUsed": 32429584,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.117335757,\"ops\":42612756.143892266,\"maxRssKiB\":126800,\"memory\":{\"rss\":129843200,\"heapTotal\":73449472,\"heapUsed\":32429584,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 12,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.116059689,
+    "ops": 43081280.35738576,
+    "maxRssKiB": 126540,
+    "memory": {
+      "rss": 129708032,
+      "heapTotal": 73711616,
+      "heapUsed": 32564592,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.116059689,\"ops\":43081280.35738576,\"maxRssKiB\":126540,\"memory\":{\"rss\":129708032,\"heapTotal\":73711616,\"heapUsed\":32564592,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 12,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.118940582,
+    "ops": 42037796.65379475,
+    "maxRssKiB": 93132,
+    "memory": {
+      "rss": 95367168,
+      "heapTotal": 40157184,
+      "heapUsed": 9843792,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.118940582,\"ops\":42037796.65379475,\"maxRssKiB\":93132,\"memory\":{\"rss\":95367168,\"heapTotal\":40157184,\"heapUsed\":9843792,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 13,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.101291302,
+    "ops": 49362580.01698902,
+    "maxRssKiB": 92904,
+    "memory": {
+      "rss": 95133696,
+      "heapTotal": 40157184,
+      "heapUsed": 9447808,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.101291302,\"ops\":49362580.01698902,\"maxRssKiB\":92904,\"memory\":{\"rss\":95133696,\"heapTotal\":40157184,\"heapUsed\":9447808,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 13,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.11398058200000001,
+    "ops": 43867121.155777216,
+    "maxRssKiB": 127212,
+    "memory": {
+      "rss": 130265088,
+      "heapTotal": 73449472,
+      "heapUsed": 32291488,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.11398058200000001,\"ops\":43867121.155777216,\"maxRssKiB\":127212,\"memory\":{\"rss\":130265088,\"heapTotal\":73449472,\"heapUsed\":32291488,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "baseline",
+    "run": 14,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.11357097899999999,
+    "ops": 44025331.50656384,
+    "maxRssKiB": 126876,
+    "memory": {
+      "rss": 129921024,
+      "heapTotal": 73449472,
+      "heapUsed": 32636272,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.11357097899999999,\"ops\":44025331.50656384,\"maxRssKiB\":126876,\"memory\":{\"rss\":129921024,\"heapTotal\":73449472,\"heapUsed\":32636272,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  },
+  {
+    "workload": "heap-churn",
+    "binary": "patched",
+    "run": 14,
+    "kind": "heap-churn",
+    "operations": 5000000,
+    "seconds": 0.10117230699999999,
+    "ops": 49420638.396631606,
+    "maxRssKiB": 93728,
+    "memory": {
+      "rss": 95977472,
+      "heapTotal": 39895040,
+      "heapUsed": 9568336,
+      "external": 2033150,
+      "arrayBuffers": 137523
+    },
+    "checksum": 12499997500000,
+    "stdout": "{\"kind\":\"heap-churn\",\"operations\":5000000,\"seconds\":0.10117230699999999,\"ops\":49420638.396631606,\"maxRssKiB\":93728,\"memory\":{\"rss\":95977472,\"heapTotal\":39895040,\"heapUsed\":9568336,\"external\":2033150,\"arrayBuffers\":137523},\"checksum\":12499997500000}\n",
+    "stderr": ""
+  }
+]

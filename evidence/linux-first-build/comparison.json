@@ -1,0 +1,22 @@
+{
+  "stream-burst": {
+    "baseline": 17353.114323038182,
+    "patched": 36661.49917947532,
+    "median_change_percent": 111.26754827404737
+  },
+  "buffer-churn": {
+    "baseline": 205800.3173029292,
+    "patched": 343370.53773139603,
+    "median_change_percent": 66.84645691093343
+  },
+  "buffer-retained": {
+    "baseline": 207156.1823533105,
+    "patched": 344977.83297499764,
+    "median_change_percent": 66.5303101534419
+  },
+  "heap-churn": {
+    "baseline": 41913780.18547669,
+    "patched": 46673316.431867525,
+    "median_change_percent": 11.355540410168107
+  }
+}
