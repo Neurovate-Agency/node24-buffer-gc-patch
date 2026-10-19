@@ -24,7 +24,8 @@ jobs:
         working-directory: node-source
         run: |
           set -o pipefail
-          python3 tools/test.py --mode=release -j 4 parallel sequential 2>&1 | tee ../results/upstream-tests.log
+          mkdir -p /tmp/n24-tests
+          NODE_TEST_DIR=/tmp/n24-tests python3 tools/test.py --mode=release -j 4 parallel sequential 2>&1 | tee ../results/upstream-tests.log
       - name: Compare throughput, memory and GC
         if: ${{ !cancelled() && hashFiles('results/node-patched') != '' }}
         run: python3 scripts/compare.py node-source results --runs 7

@@ -12,7 +12,7 @@ permissions:
 jobs:
   stress:
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
@@ -33,9 +33,37 @@ jobs:
           chmod +x results/node-baseline results/node-patched
           results/node-baseline scripts/stress.cjs | tee results/stress-baseline.log
           results/node-patched scripts/stress.cjs | tee results/stress-patched.log
+      - name: Restore pinned test sources without rebuilding
+        run: |
+          set -euo pipefail
+          git -C node-source init
+          git -C node-source remote add origin https://github.com/nodejs/node.git
+          git -C node-source fetch --depth=1 origin 0d10bfe3cb961ef997490f5c060bd1466b5affea
+          git -C node-source checkout --detach FETCH_HEAD
+          git -C node-source apply ../patches/node24-scavenger-default.patch
+          cd node-source
+          ./configure
+          mkdir -p out/Release
+          cp ../results/node-patched out/Release/node
+      - name: Confirm the socket-path failure is independent of the patch
+        run: python3 scripts/socket-path-check.py node-source results
+      - name: Recheck compiled defaults
+        run: python3 scripts/verify.py node-source results
+      - name: Run complete parallel and sequential suites with short temporary paths
+        working-directory: node-source
+        run: |
+          set -o pipefail
+          mkdir -p /tmp/n24-tests
+          NODE_TEST_DIR=/tmp/n24-tests python3 tools/test.py --mode=release -j 4 parallel sequential 2>&1 | tee ../results/upstream-tests-recheck.log
+      - name: Repeat interleaved measurements on this runner
+        if: ${{ !cancelled() && hashFiles('node-source/out/Release/node') != '' }}
+        run: python3 scripts/compare.py node-source results --runs 15
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
-          name: additional-stress-results
-          path: results/stress-*.log
+          name: recheck-evidence
+          path: |
+            results/*.log
+            results/*.json
+            results/SHA256SUMS
           retention-days: 14
